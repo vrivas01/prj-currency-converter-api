@@ -1,0 +1,9 @@
+server:
+  port: 8111
+spring:
+  application:
+    name: prj-currency-converter-api
+info:
+  project:
+    version: 1.0.0
+    author: 'Victor Rivas'

@@ -1,0 +1,15 @@
+spring:
+  r2dbc:
+    url: r2dbc:h2:mem:///currency_converter_db
+    username: sa
+    password:
+  cloud:
+    config:
+      enabled: false
+service:
+  cloud:
+    currency-api:
+      connect-timeout: 40000
+      read-timeout: 40000
+      base-url: 'https://open.er-api.com/v6/latest'
+      exchange-rate: '/{currency}'
