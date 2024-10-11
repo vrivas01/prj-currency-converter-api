@@ -39,7 +39,7 @@ Este proyecto es un servicio web reactivo para la conversión de divisas, constr
 ### Clonar el repositorio
 
 ```bash
-git clone https://github.com/vrivas/prj-currency-converter-api.git
+git clone https://github.com/vrivas01/prj-currency-converter-api.git
 cd prj-currency-converter-api
 ```
 
